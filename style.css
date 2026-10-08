@@ -5,9 +5,33 @@
  Author:       DNArtworks
  Author URI:   https://dnartworks.co.id/
  Template:     soledad
- Version:      1.1.0
+ Version:      1.1.1
  License:      Proprietary
  License URI:  https://dnartworks.co.id;
  Tags:         proprietary
  Text Domain:  keuskupanbandung
  */
+
+#karyamap {
+	aspect-ratio: 2/1;
+}
+#karyamap h2 {
+	font-size: 16px;
+	margin-bottom: 0;
+}
+#karyamap p {
+	font-size: 13px;
+	margin-bottom: 4px;
+	font-style: italic;
+}
+#karyamap img {
+	margin-bottom: 4px;
+}
+@media screen and (max-width: 960px) {
+	#karyamap {
+		aspect-ratio: 1/1;
+	}
+	#karyamap h2 {
+		font-size: 12px;
+	}
+}
